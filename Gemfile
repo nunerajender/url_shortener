@@ -32,7 +32,7 @@ gem 'rails_12factor'
  gem 'unicorn'
 
 # Deploy with Capistrano
- gem 'capistrano'
-
+ #gem 'capistrano'
+#gem 'capistrano-passenger'
 # To use debugger
 # gem 'debugger'
