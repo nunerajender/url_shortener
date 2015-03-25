@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 gem 'rails', '3.2.15'
 
 # Bundle edge Rails instead:
@@ -32,7 +32,7 @@ gem 'rails_12factor'
  gem 'unicorn'
 
 # Deploy with Capistrano
- #gem 'capistrano'
+  gem 'capistrano-rails', group: :development
 #gem 'capistrano-passenger'
 # To use debugger
 # gem 'debugger'
